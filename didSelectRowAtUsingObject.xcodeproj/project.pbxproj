@@ -13,6 +13,11 @@
 		040EEE882A00F44100A1DF83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040EEE862A00F44100A1DF83 /* Main.storyboard */; };
 		040EEE8A2A00F44300A1DF83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040EEE892A00F44300A1DF83 /* Assets.xcassets */; };
 		040EEE8D2A00F44300A1DF83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040EEE8B2A00F44300A1DF83 /* LaunchScreen.storyboard */; };
+		0462731B2A0164DA005B2A56 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462731A2A0164DA005B2A56 /* SecondTableViewCell.swift */; };
+		04A7B3FF2A010052006F0883 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7B3FD2A010052006F0883 /* TableViewCell.swift */; };
+		04A7B4002A010052006F0883 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A7B3FE2A010052006F0883 /* TableViewCell.xib */; };
+		04A7B4022A0107C0006F0883 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7B4012A0107C0006F0883 /* SecondViewController.swift */; };
+		04A7B4042A010B3B006F0883 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7B4032A010B3B006F0883 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		040EEE892A00F44300A1DF83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040EEE8C2A00F44300A1DF83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040EEE8E2A00F44300A1DF83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0462731A2A0164DA005B2A56 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
+		04A7B3FD2A010052006F0883 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04A7B3FE2A010052006F0883 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		04A7B4012A0107C0006F0883 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		04A7B4032A010B3B006F0883 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +69,12 @@
 				040EEE802A00F44100A1DF83 /* AppDelegate.swift */,
 				040EEE822A00F44100A1DF83 /* SceneDelegate.swift */,
 				040EEE842A00F44100A1DF83 /* ViewController.swift */,
+				04A7B4032A010B3B006F0883 /* Player.swift */,
 				040EEE862A00F44100A1DF83 /* Main.storyboard */,
+				04A7B3FD2A010052006F0883 /* TableViewCell.swift */,
+				04A7B4012A0107C0006F0883 /* SecondViewController.swift */,
+				0462731A2A0164DA005B2A56 /* SecondTableViewCell.swift */,
+				04A7B3FE2A010052006F0883 /* TableViewCell.xib */,
 				040EEE892A00F44300A1DF83 /* Assets.xcassets */,
 				040EEE8B2A00F44300A1DF83 /* LaunchScreen.storyboard */,
 				040EEE8E2A00F44300A1DF83 /* Info.plist */,
@@ -126,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040EEE8D2A00F44300A1DF83 /* LaunchScreen.storyboard in Resources */,
+				04A7B4002A010052006F0883 /* TableViewCell.xib in Resources */,
 				040EEE8A2A00F44300A1DF83 /* Assets.xcassets in Resources */,
 				040EEE882A00F44100A1DF83 /* Main.storyboard in Resources */,
 			);
@@ -139,7 +155,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				040EEE852A00F44100A1DF83 /* ViewController.swift in Sources */,
+				04A7B4042A010B3B006F0883 /* Player.swift in Sources */,
+				04A7B3FF2A010052006F0883 /* TableViewCell.swift in Sources */,
 				040EEE812A00F44100A1DF83 /* AppDelegate.swift in Sources */,
+				04A7B4022A0107C0006F0883 /* SecondViewController.swift in Sources */,
+				0462731B2A0164DA005B2A56 /* SecondTableViewCell.swift in Sources */,
 				040EEE832A00F44100A1DF83 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
